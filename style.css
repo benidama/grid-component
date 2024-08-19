@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.common-style {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    background-color: beige;
+    height: 100vh;
+}
+
+#first {
+    background-color: beige;
+}
+
+#second {
+    flex-direction: row;
+}
+
+.box {
+    width: 300px;
+}
