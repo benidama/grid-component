@@ -15,8 +15,26 @@
     height: 100vh;
 }
 
+.green {
+    color: hsl(218, 22%, 67%);
+    padding-bottom: 20px;
+}
+
 #first {
-    background-color: beige;
+    background-color: hsl(204, 43%, 93%);
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 520px;
+}
+
+h1 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+h3 {
+    padding-bottom: 10px;
 }
 
 #second {
@@ -24,5 +42,41 @@
 }
 
 .box {
-    width: 300px;
+    width: 250px;
+    height: 200px;
+    padding-top : 30px ;
+    padding-left: 20px;
+}
+
+.button {
+    background-color: hsl(71, 73%, 54%);
+    width: 215px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.uni {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.diff-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.unlike {
+    background-color: hsl(218, 22%, 67%);
+    
+}
+
+h5 {
+    margin-bottom: 25px;
+}
+
+.para {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
